@@ -3,8 +3,6 @@ import time
 from PIL import Image
 import tensorflow as tf
 
-os.environ["TFHUB_DOWNLOAD_PROGRESS"] = "True"
-
 # Constants
 IMAGE_PATH = "original.png"
 KERAS_MODEL_PATH = "./esrgan_keras_model"
